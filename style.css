@@ -1,0 +1,62 @@
+body {
+    margin: auto;
+    width: 300px;
+    background-color: hsl(0, 0%, 98%);
+    color: hsl(234, 12%, 34%);
+    font-family: "Poppins", serif;
+}
+
+header {text-align: center;}
+h1 {font-size: 15px; font-weight: 200; margin-bottom: -10px;}
+h2 {font-size: 15.5px; font-weight: 600;}
+h3 {font-size: 10px; font-weight: 200; padding: 0 45px;}
+h4 {font-size: 14px; font-weight: 600; margin-top: -5px}
+h5 {font-size: 9px; font-weight: 300; margin-top: -20px}
+
+main {
+    margin-top: 50px;
+    display: flex;
+    flex-direction: column ;}
+
+.card {
+    margin: 15px auto;
+    padding: 15px;
+    width: 170px;
+    height: 100px;
+    border-radius: 5px;
+    border-top: 4px solid;
+    position: relative;
+    box-shadow: 1px 8px 19px -5px rgba(153,150,153,0.59);
+}
+
+img {
+    position: absolute;
+    bottom: 15px;
+    right: 15px;
+    width: 35px;
+}
+
+#card1 {
+    border-top-color: hsl(180, 62%, 55%);
+}
+#card2 {
+    border-top-color: hsl(0, 78%, 62%);
+}
+#card3 {
+    border-top-color: hsl(34, 97%, 64%);
+}
+#card4 {
+    border-top-color: hsl(212, 86%, 64%);
+}
+
+.attribution { font-size: 11px; text-align: center; }
+.attribution a { color: hsl(228, 45%, 44%); }
+
+@media only screen and (min-width: 700px) {
+    body {width: 700px;}
+    h1 {font-size: 19px; font-weight: 400; margin-bottom: -18px;}
+    h2 {font-size: 19.5px;}
+    h3 {font-size: 10px; width: 330px; margin: auto}
+    main {align-items: center; justify-content: center; flex-direction: row;}
+    .card {margin: 0 0 15px 15px}
+}
